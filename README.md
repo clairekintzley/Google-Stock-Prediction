@@ -3,7 +3,7 @@
 ### Claire Kintzley
 
 ## Problem Statement
-Accurately modeling and forecasting stock price data is often challenging due to high volatility and complex market trends. Traditional time series models, like ARIMA, have been widely used in forecasting because of their interpretability and straightforward assumptions about data patterns. However, advancements in deep learning, specifically Long Short-Term Memory (LSTM) networks, present an opportunity to capture more complex trends that may improve prediction accuracy. This project seeks to address the question: How does the predictive performance of a traditional ARIMA model compare to that of an RNN and LSTM model when forecasting the daily opening prices of Alphabet (Google) stock? 
+Accurately modeling and forecasting stock price data is often challenging due to high volatility and complex market trends. Traditional time series models, like ARIMA, have been widely used in forecasting because of their interpretability and straightforward assumptions about data patterns. However, advancements in deep learning, specifically Long Short-Term Memory (LSTM) networks, present an opportunity to capture more complex trends that may improve prediction accuracy. This project seeks to address the question: _How does the predictive performance of a traditional ARIMA model compare to that of an RNN and LSTM model when forecasting the daily opening prices of Alphabet (Google) stock?_ 
 
 ## Project Overview
 This project involves developing and comparing three different models for predicting Alphabet Inc.'s (GOOG) daily opening stock prices. The models used for forecasting include:
@@ -16,7 +16,7 @@ The project focuses on comparing the performance of these models using key metri
 
 ## File Summaries
 
-### StockPredictionARIMA.ipynb:
+### StockPredictionARIMA.ipynb
 This notebook implements the ARIMA model for forecasting the daily opening stock prices of Alphabet Inc. (GOOG). It includes data preprocessing, model fitting, and evaluation using performance metrics like MSE and MAE, with visualizations of the forecasted vs. actual stock prices.
 
 ### StockPredictionSimpleRNN.ipynb
@@ -32,6 +32,7 @@ This notebook demonstrates how to use an LSTM model to predict Alphabet's daily 
 
 
 Data source: https://www.kaggle.com/datasets/henryshan/google-stock-price
+
 Additional sources:
 - https://www.geeksforgeeks.org/time-series-forecasting-using-recurrent-neural-networks-rnn-in-tensorflow/
 - https://www.kaggle.com/code/ozkanozturk/stock-price-prediction-by-simple-rnn-and-lstm
