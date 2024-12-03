@@ -27,6 +27,8 @@ This notebook demonstrates how to use an LSTM model to predict Alphabet's daily 
 
 ## Findings
 - The LSTM model provided the most accurate predictions, followed by the Simple RNN, and lastly the ARIMA model.
+- The LSTM and SimpleRNN model performed similarly. Further hyperparameter tuning may reveal that one model outperforms the other. 
+- The ARIMA model performs the best on the next-day prediction for 12/30/2021. By focusing on the moving averages and differencing, ARIMA may be able to smooth out short-term fluctuations and make more accurate predictions for immediate future values.
 - While ARIMA is a useful model for simpler time series problems, the RNN and LSTM models showed a marked improvement in predicting more complex patterns in stock price data.
 - The LSTM model demonstrated superior performance, confirming the effectiveness of deep learning models in forecasting financial data compared to traditional methods like ARIMA.
 
